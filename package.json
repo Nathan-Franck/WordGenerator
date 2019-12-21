@@ -23,11 +23,6 @@
 				"category": "Word Generator"
 			},
 			{
-				"command": "extension.verb",
-				"title": "Replace with Random Verb",
-				"category": "Word Generator"
-			},
-			{
 				"command": "extension.noun",
 				"title": "Replace with Random Noun",
 				"category": "Word Generator"
