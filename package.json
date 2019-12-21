@@ -2,7 +2,7 @@
 	"name": "wordgenerator",
 	"displayName": "Word Generator",
 	"description": "Help spur some creativity with random words amongst your existing text!",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"publisher": "TacticalDan",
 	"repository": {
 		"url": "https://github.com/TacticalDan/WordGenerator.git"
