@@ -1,7 +1,7 @@
 {
 	"name": "wordgenerator",
 	"displayName": "Word Generator",
-	"description": "Help spur some creativity with some random words amongst your existing text!",
+	"description": "Help spur some creativity with random words amongst your existing text!",
 	"version": "1.0.0",
 	"publisher": "TacticalDan",
 	"repository": {
