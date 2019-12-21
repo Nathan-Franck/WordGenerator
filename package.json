@@ -1,8 +1,13 @@
 {
 	"name": "wordgenerator",
-	"displayName": "WordGenerator",
-	"description": "Help spur some creativity with some random words amougst your existing text!",
-	"version": "0.0.1",
+	"displayName": "Word Generator",
+	"description": "Help spur some creativity with some random words amongst your existing text!",
+	"version": "1.0.0",
+	"publisher": "TacticalDan",
+	"repository": {
+		"url": "https://github.com/TacticalDan/WordGenerator.git"
+	},
+	"icon": "WordGenLogo.png",
 	"engines": {
 		"vscode": "^1.41.0"
 	},
