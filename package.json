@@ -10,7 +10,9 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.adjective"
+		"onCommand:extension.adjective",
+		"onCommand:extension.verb",
+		"onCommand:extension.noun"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
