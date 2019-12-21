@@ -10,14 +10,25 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"onCommand:extension.adjective"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.helloWorld",
-				"title": "Hello World"
+				"command": "extension.adjective",
+				"title": "Replace with Random Adjective",
+				"category": "Word Generator"
+			},
+			{
+				"command": "extension.verb",
+				"title": "Replace with Random Verb",
+				"category": "Word Generator"
+			},
+			{
+				"command": "extension.noun",
+				"title": "Replace with Random Noun",
+				"category": "Word Generator"
 			}
 		]
 	},
