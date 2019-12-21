@@ -1,6 +1,7 @@
 // The module 'vscode' contains the VS Code extensibility API
 // Import the module and reference it with the alias vscode in your code below
 import * as vscode from 'vscode';
+import { RandomWord } from './Adjectives';
 
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
@@ -18,6 +19,14 @@ export function activate(context: vscode.ExtensionContext) {
 
 		// Display a message box to the user
 		vscode.window.showInformationMessage('Hello World!');
+
+		const textEditor = vscode.window.activeTextEditor;
+		if (textEditor == null) { return; }
+		textEditor.edit((builder) => {
+			for (const selection of textEditor.selections) {
+				builder.replace(selection, RandomWord.Adjective());
+			}
+		});
 	});
 
 	context.subscriptions.push(disposable);
