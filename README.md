@@ -15,11 +15,4 @@ There was a need within a project I am working on to create unique error codes i
 
 I'm sure there's other loyal and leaky uses for word generators beyond this!
 
-## Release Notes
-
-### 1.0.0
-
-* Initial release with functionality for Adjectives and Nouns
-* Added documentation
-
 **Enjoy!**

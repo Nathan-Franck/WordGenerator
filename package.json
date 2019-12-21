@@ -12,6 +12,8 @@
 		"vscode": "^1.41.0"
 	},
 	"categories": [
+		"Formatters",
+		"Snippets",
 		"Other"
 	],
 	"activationEvents": [

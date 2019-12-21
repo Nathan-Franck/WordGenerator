@@ -1,9 +1,11 @@
 # Change Log
 
-All notable changes to the "wordgenerator" extension will be documented in this file.
+### 1.0.0
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+* Initial release with functionality for Adjectives and Nouns
+* Added documentation
 
-## [Unreleased]
+### 1.01
 
-- Initial release
+* Added "Why" section of README.md
+* Added Categories
